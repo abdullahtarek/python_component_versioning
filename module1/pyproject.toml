@@ -1,0 +1,13 @@
+[project]
+name = "module1"
+version = "1.0.0"
+description = "Core shared module"
+authors = [{ name = "Abdullah Tarek", email = "abdullahtarek@rocketmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
