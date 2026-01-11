@@ -2,7 +2,7 @@
 
 [[package]]
 name = "module1"
-version = "1.0.0"
+version = "1.1.0"
 description = "Core shared module"
 optional = false
 python-versions = ">=3.12"
@@ -13,11 +13,11 @@ develop = false
 [package.source]
 type = "git"
 url = "https://github.com/abdullahtarek/python_component_versioning.git"
-reference = "v1.0.0"
-resolved_reference = "54cf866c003f572895ad19df0768edee90f73db7"
+reference = "v1.1.0"
+resolved_reference = "48e017e0eae1c88620b8de7c72df8ba8d3653b8d"
 subdirectory = "module1"
 
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "ba51a3b3667067f6e89cea536fdeee5edabe34b247b86645cf26da22bcac8560"
+content-hash = "16472c4d5fbc32043a5ce1d9583fa413551d079f0f14dbc60731dc40778e590e"
