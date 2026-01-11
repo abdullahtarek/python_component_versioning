@@ -1,4 +1,4 @@
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 def greet(name: str) -> str:
     """Return a greeting message including the module version."""

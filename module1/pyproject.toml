@@ -1,6 +1,6 @@
 [project]
 name = "module1"
-version = "1.0.0"
+version = "1.1.0"
 description = "Core shared module"
 authors = [{ name = "Abdullah Tarek", email = "abdullahtarek@rocketmail.com" }]
 readme = "README.md"
