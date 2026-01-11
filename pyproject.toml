@@ -5,7 +5,7 @@ description = "Main app using all modules"
 authors = [{ name = "Abdullah Tarek", email = "abdullahtarek@rocketmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["module2 @ git+https://github.com/abdullahtarek/python_component_versioning.git#subdirectory=module2"]
+dependencies = ["module2 @ git+https://github.com/abdullahtarek/python_component_versioning.git#subdirectory=module2", "module3 @ git+https://github.com/abdullahtarek/python_component_versioning.git#subdirectory=module3"]
 
 
 [build-system]
