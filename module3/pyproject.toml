@@ -1,0 +1,17 @@
+[project]
+name = "module3"
+version = "0.1.0"
+description = "Module3 that uses module1"
+authors = [
+    {name = "Abdullah Tarek",email = "abdullahtarek@rocketmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "module1 @ git+https://github.com/abdullahtarek/python_component_versioning.git@v1.0.0#subdirectory=module1"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

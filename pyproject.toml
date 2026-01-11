@@ -1,13 +1,11 @@
 [project]
-name = "module2"
+name = "mainapp"
 version = "0.1.0"
-description = "Module that uses module1"
+description = "Main app using all modules"
 authors = [{ name = "Abdullah Tarek", email = "abdullahtarek@rocketmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "module1 @ git+https://github.com/abdullahtarek/python_component_versioning.git@v1.0.0#subdirectory=module1",
-]
+dependencies = ["module2 @ git+https://github.com/abdullahtarek/python_component_versioning.git#subdirectory=module2"]
 
 
 [build-system]
